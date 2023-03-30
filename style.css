@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.glb-msg {
+  background: red;
+  padding: 10px 0;
+}
+
+.glb-msg > div {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.btn {
+  background: red;
+  color: white;
+  border: none;
+}
+/* navbar seciton */
+.nav-bar {
+  background: blue;
+  color: white;
+}
+
+.nav-bar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+.menu > li {
+  /* margin: 10px 5px 40px 5px; */
+  margin-left: 1rem;
+}
+
+.menu > li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+/* hero section */
+
+.hero {
+  background: url(./hero.jpg) center center no-repeat;
+  background-size: cover;
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  background: #00000095;
+  color: rgba(255, 247, 0, 0.427);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+/* ========= main content area======== */
+.main {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-content {
+  width: 70%;
+}
+
+main article {
+  display: flex;
+  border: 1px solid grey;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: -5px 5px 15px 5px grey;
+  margin-bottom: 2rem;
+}
+
+.art-img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-container button {
+  background: red;
+  border: none;
+  padding: 5px 20px;
+}
+
+.icon-date {
+  margin-right: 5px;
+}
+
+/* =========== aside ======== */
+.side-links {
+  width: 30%;
+}
+
+.country {
+  background: rgba(33, 199, 11, 0.427);
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+.year {
+  background: rgba(250, 216, 23, 0.945);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* ============ recc section ========= */
+.recc {
+  background: rgba(223, 243, 39, 0.5);
+  padding: 4rem 0;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  background: white;
+  /* border: 1px solid grey; */
+  box-shadow: -5px 10px 10px 5px grey;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+  flex-grow: 1;
+}
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px 0;
+  background: red;
+  border: none;
+  box-shadow: -5px 10px 10px 5px grey;
+}
+
+/* subscription */
+.subscription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+form button {
+  padding: 0.3rem 1rem;
+}
+
+/* =========footer======= */
+.footer {
+  min-height: 100px;
+  background: black;
+  color: white;
+  padding: 3rem;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
